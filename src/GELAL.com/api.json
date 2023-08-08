@@ -1,0 +1,86 @@
+{
+    "adult": false,
+    "backdrop_path": "/7drO1kYgQ0PnnU87sAnBEphYrSM.jpg",
+    "belongs_to_collection": {
+      "id": 133352,
+      "name": "Resident Evil (Animated) Collection",
+      "poster_path": "/i5BkIcEPSXqEcPiwrbwsVjS95FK.jpg",
+      "backdrop_path": "/uj2duAkn6zUmRSbjyEr7XUeIWsJ.jpg"
+    },
+    "budget": 0,
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 27,
+        "name": "Horror"
+      }
+    ],
+    "homepage": "https://www.sonypictures.com/movies/residentevildeathisland",
+    "id": 1083862,
+    "imdb_id": "tt26674627",
+    "original_language": "ja",
+    "original_title": "バイオハザード：デスアイランド",
+    "overview": "In San Francisco, Jill Valentine is dealing with a zombie outbreak and a new T-Virus, Leon Kennedy is on the trail of a kidnapped DARPA scientist, and Claire Redfield is investigating a monstrous fish that is killing whales in the bay. Joined by Chris Redfield and Rebecca Chambers, they discover the trail of clues from their separate cases all converge on the same location, Alcatraz Island, where a new evil has taken residence and awaits their arrival.",
+    "popularity": 1881.476,
+    "poster_path": "/qayga07ICNDswm0cMJ8P3VwklFZ.jpg",
+    "production_companies": [
+      {
+        "id": 7220,
+        "logo_path": "/dD0x5awPmtx4sAr2pNvkmxkCODh.png",
+        "name": "CAPCOM",
+        "origin_country": "JP"
+      },
+      {
+        "id": 7164,
+        "logo_path": "/vHsaqTkQ2ZTbdqrCA272YahoVlg.png",
+        "name": "TMS Entertainment",
+        "origin_country": "JP"
+      },
+      {
+        "id": 140891,
+        "logo_path": null,
+        "name": "Quebico",
+        "origin_country": "JP"
+      },
+      {
+        "id": 172244,
+        "logo_path": "/lz8CdepJJMQiZZ9Cf192IZkGNAG.png",
+        "name": "UNLIMITED PRODUCE by TMS",
+        "origin_country": "JP"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "JP",
+        "name": "Japan"
+      }
+    ],
+    "release_date": "2023-06-22",
+    "revenue": 53929,
+    "runtime": 91,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Japanese",
+        "iso_639_1": "ja",
+        "name": "日本語"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Destinies intertwined. A world gone mad.",
+    "title": "Resident Evil: Death Island",
+    "video": false,
+    "vote_average": 7.935,
+    "vote_count": 399
+  }
