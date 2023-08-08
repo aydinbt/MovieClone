@@ -32,8 +32,7 @@ const CommentMovieModal = ({ route }) => {
 
   const [count, setCount] = useState(0);
   const commentSubmit = useMoviesCommentMarkListener();
-  const formatDate = format(parseISO(user.createdAt), "dd.MM.yyyy; HH:mm");
-  console.log(formatDate);
+
   const handleComment = (form) => {
     if (form.comment === "") {
       return alert("Boş Bırakmayınız");
@@ -144,7 +143,7 @@ const CommentMovieModal = ({ route }) => {
                           {user.email}
                         </Text>
                         <Text style={{ textAlign: "right", fontSize: 12 }}>
-                          {formatDate}
+                          {data.date}
                         </Text>
                       </View>
                     </View>
