@@ -40,8 +40,8 @@ const DetailPage = ({ route }) => {
     if (!isBookmarkSelected) {
       addBookMark(id, data.title, data.backdrop_path);
       showToast({
-        status: "error",
-        title: "Favorilerime Eklenmiştir.  🎉 ",
+        status: "errxor",
+        title: "Favorilerime Eklenmiştir.  🎉  eettt",
       });
       setIsBookmarkSelected(true);
       // Burada, bookmark durumunu Firestore'a kaydetme işlemini gerçekleştirebilirsiniz.
