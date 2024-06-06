@@ -71,7 +71,7 @@ export const addBookMark = (id, title, image) => {
     image: image,
   });
 };
-export const addComment = (id, desc, date, heart = 0) => {
+export const addComment = (id, desc, heart = 0) => {
   const user = firebase.auth().currentUser;
   addDoc(refMovieComments, {
     uid: id,

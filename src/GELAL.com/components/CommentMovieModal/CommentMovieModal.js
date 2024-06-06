@@ -37,15 +37,14 @@ const CommentMovieModal = ({ route }) => {
     if (form.comment === "") {
       return alert("Boş Bırakmayınız");
     }
-    addComment(id, form.comment, count);
+    addComment(id, form.comment);
     form.comment = "";
   };
 
-  const handleHeartChange = async (id) => {
-    setCount(count + 1);
+  const handleHeartChange = async () => {
     const commentRef = doc(db, "/MoviesComments", id);
     await updateDoc(commentRef, {
-      heart: count,
+      heart: firebase.firestore.FieldValue.increment(1),
     });
   };
   return (
@@ -126,7 +125,7 @@ const CommentMovieModal = ({ route }) => {
                       >
                         <Text style={{ flex: 1 }}>{data.desc}</Text>
                         <IconButton
-                          onPress={() => handleHeartChange(data.id)}
+                          onPress={handleHeartChange}
                           icon="heart"
                           iconColor="red"
                         />
